@@ -5,17 +5,17 @@ Business Utility and Frontend Focus:
 * Dual Viewport Interaction: Implements optimized component layout architectures where selecting an annotation index badge tells the custom player controller hooks to automatically update and jump playback tracks safely.
 
 Project Structure
-  
-  syncvideo-learning-hub/
-  ├── backend/
-  │   └── main.py
-  └── frontend/
-      ├── src/
-      │   ├── components/
-      │   │   ├── VideoPlayerCore.jsx
-      │   │   └── NotesTimelineMatrix.jsx
-      │   └── App.jsx
-      └── index.html
+    
+    syncvideo-learning-hub/
+    ├── backend/
+    │   └── main.py
+    └── frontend/
+        ├── src/
+        │   ├── components/
+        │   │   ├── VideoPlayerCore.jsx
+        │   │   └── NotesTimelineMatrix.jsx
+        │   └── App.jsx
+        └── index.html
 
 Core Technical Features
 * Memory Leak Interception: Configured robust state clean-up loops inside active tracking structures to guarantee zero browser tab resource pollution or background thread bleeding.
