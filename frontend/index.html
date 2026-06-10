@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SyncVideo Interactive Learning Console Hub</title>
+  <style>
+    html, body { background-color: #0c0a09; color: #e7e5e4; font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; margin: 0; padding: 0; height: 100vh; width: 100vw; overflow: hidden; -webkit-font-smoothing: antialiased; }
+    .app-layout-frame { display: flex; flex-direction: column; height: 100vh; width: 100vw; }
+    .workspace-navbar { height: 64px; background: #1c1917; border-bottom: 1px solid #292524; display: flex; align-items: center; padding: 0 24px; box-sizing: border-box; }
+    .workspace-navbar h2 { font-size: 16px; font-weight: 600; margin: 0; color: #f5f5f4; letter-spacing: 0.02em; }
+    .split-sandbox-body { display: flex; flex: 1; overflow: hidden; width: 100%; box-sizing: border-box; }
+    .canvas-rendering-view { flex: 1; background: #0c0a09; display: flex; flex-direction: column; padding: 40px; box-sizing: border-box; overflow-y: auto; }
+    .editor-sidebar-panel { width: 360px; background: #1c1917; border-left: 1px solid #292524; padding: 24px; box-sizing: border-box; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
+    .editor-sidebar-panel h3 { margin: 0 0 4px 0; font-size: 15px; color: #f5f5f4; font-weight: 600; border-bottom: 1px solid #292524; padding-bottom: 12px; }
+    .input-group-element { margin-bottom: 4px; width: 100%; box-sizing: border-box; display: flex; gap: 12px; background: #1c1917; padding: 16px; border-radius: 8px; border: 1px solid #292524; }
+    .input-group-element input[type="text"] { flex: 1; background: #0c0a09; border: 1px solid #44403c; padding: 12px 14px; border-radius: 6px; color: #ffffff; box-sizing: border-box; font-size: 14px; outline: none; transition: border-color 0.15s; }
+    .input-group-element input[type="text"]:focus { border-color: #3b82f6; }
+    .commit-blueprint-btn { background: #ffffff; color: #0c0a09; border: none; padding: 0 24px; font-weight: 700; border-radius: 6px; cursor: pointer; transition: background 0.15s; font-size: 14px; }
+    .commit-blueprint-btn:hover { background: #e7e5e4; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #0c0a09; }
+    ::-webkit-scrollbar-thumb { background: #292524; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
